@@ -72,7 +72,7 @@ body::after {
 .wrap {
   max-width: 1120px;
   margin: 0 auto;
-  padding: 0 32px;
+  padding-inline: 32px;
   position: relative;
   z-index: 1;
 }
@@ -144,7 +144,7 @@ nav .cta {
 }
 
 .hero {
-  padding: 180px 0 120px;
+  padding-block: 180px 120px;
 }
 
 .badge {
@@ -269,7 +269,7 @@ nav .cta {
 }
 
 section {
-  padding: 100px 0;
+  padding-block: 70px;
   position: relative;
   z-index: 1;
 }
@@ -655,7 +655,7 @@ section {
 
 .contact {
   text-align: center;
-  padding: 130px 0 60px;
+  padding-block: 130px 60px;
 }
 
 .contact h2 {
@@ -752,7 +752,7 @@ footer .row {
 
 @media (max-width: 600px) {
   .wrap {
-    padding: 0 20px;
+    padding-inline: 20px;
   }
 
   nav {
@@ -760,7 +760,7 @@ footer .row {
   }
 
   .hero {
-    padding: 140px 0 80px;
+    padding-block: 140px 80px;
   }
 
   .hero-cta {
