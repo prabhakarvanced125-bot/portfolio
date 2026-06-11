@@ -689,6 +689,62 @@ section {
   }
 }
 
+.edu-grid {
+  display: grid;
+  gap: 16px;
+}
+
+.edu-card {
+  display: flex;
+  justify-content: space-between;
+  gap: 24px;
+  background: var(--bg-2);
+  border: 1px solid var(--line);
+  border-radius: 16px;
+  padding: 28px;
+  transition: border-color 0.25s;
+}
+
+.edu-card:hover {
+  border-color: var(--line-2);
+}
+
+.edu-card h3 {
+  font-size: 22px;
+  font-weight: 600;
+  letter-spacing: -0.02em;
+  margin-bottom: 8px;
+}
+
+.edu-card .degree {
+  color: var(--ink);
+  font-size: 16px;
+  margin-bottom: 4px;
+}
+
+.edu-card .loc {
+  color: var(--ink-2);
+  font-size: 14px;
+}
+
+.edu-card .when {
+  align-self: flex-start;
+  border: 1px solid var(--line-2);
+  border-radius: 100px;
+  color: var(--accent);
+  font-family: 'JetBrains Mono', monospace;
+  font-size: 11px;
+  padding: 5px 11px;
+  white-space: nowrap;
+}
+
+@media (max-width: 720px) {
+  .edu-card {
+    flex-direction: column;
+    padding: 24px;
+  }
+}
+
 .contact {
   text-align: center;
   padding-block: 130px 60px;

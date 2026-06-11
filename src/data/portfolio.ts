@@ -95,3 +95,12 @@ export const projects = [
     impact: 'Improved local development speed by 40% and strengthened frontend deployment workflows.',
   },
 ]
+
+export const education = [
+  {
+    school: 'Lovely Professional University',
+    loc: 'Punjab, India',
+    degree: 'Bachelor of Technology in Computer Science and Engineering',
+    when: 'Aug 2016 — Sep 2020',
+  },
+]
