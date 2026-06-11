@@ -25,7 +25,6 @@ export default function Projects() {
           </div>
         ))}
       </div>
-      <p className="pnote">// placeholder projects — send details to populate with real work + links</p>
     </Reveal>
   )
 }

@@ -7,6 +7,11 @@ const contacts = [
     href: 'mailto:satyasivasaik@gmail.com',
   },
   {
+    label: 'Phone',
+    value: '704-453-8005',
+    href: 'tel:+17044538005',
+  },
+  {
     label: 'LinkedIn',
     value: '/satya-siva-kotipalli',
     href: 'https://www.linkedin.com/in/satya-siva-kotipalli/',
@@ -22,7 +27,8 @@ export default function Contact() {
         <span className="grad">something solid.</span>
       </h2>
       <p className="lead">
-        Open to senior & staff frontend roles, contract work, or a good technical conversation.
+        Open to software engineering roles focused on React, TypeScript, secure frontend systems,
+        accessibility, testing, and cloud-backed delivery.
       </p>
       <div className="clinks">
         {contacts.map((contact) => (
@@ -42,7 +48,7 @@ export default function Contact() {
         <div className="row">
           <span>© 2026 Satya Kotipalli</span>
           <span>Charlotte, NC</span>
-          <span>React · TypeScript · GraphQL</span>
+          <span>React · TypeScript · React Native</span>
         </div>
       </footer>
     </Reveal>

@@ -3,8 +3,8 @@ import Reveal from './Reveal'
 const metrics = [
   { v: '5+', l: 'years_experience' },
   { v: '40%', l: 'build_time_cut' },
-  { v: '20%', l: 'faster_fetch' },
-  { v: '90%+', l: 'test_coverage' },
+  { v: '4', l: 'production_roles' },
+  { v: 'E2E', l: 'auth_test_coverage' },
 ]
 
 export default function About() {
@@ -19,15 +19,17 @@ export default function About() {
       <div className="about-grid">
         <div>
           <p className="lead-p">
-            I specialize in React and TypeScript ecosystems — delivering features from concept through production.
+            I build scalable React and TypeScript products across web and mobile, with a focus
+            on secure enterprise workflows.
           </p>
           <p>
-            That means modernizing legacy systems, optimizing GraphQL data flows, and building secure
-            authentication pipelines that hold up in the enterprise.
+            My work spans component-driven development, WCAG-minded interfaces, state management,
+            performance optimization, and production monitoring with tools like New Relic.
           </p>
           <p>
-            I lean on AWS deployments, CI/CD, and AI-assisted workflows — always with a focus on
-            performance, accessibility, and clean, well-tested code.
+            I have modernized frontend architecture with Vite, migrated authentication from Keycloak
+            to ESSO-based SSO, built AWS CDK/S3 deployment workflows, and shipped automated tests
+            for OAuth and MFA flows.
           </p>
         </div>
         <div className="panel">

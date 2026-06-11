@@ -3,18 +3,19 @@ export default function Hero() {
     <header className="hero wrap">
       <div className="badge">
         <span className="pulse" />
-        Available for senior roles · Charlotte, NC
+        Software Developer · Charlotte, NC
       </div>
       <h1>
-        Senior frontend
+        Frontend
         <br />
         engineer building
         <br />
         <span className="grad">fast, tested UIs.</span>
       </h1>
       <p className="lead">
-        I'm Satya Kotipalli — 5+ years shipping scalable React & TypeScript applications
-        end-to-end, from modernizing legacy systems to optimizing the data layer and hardening auth.
+        I'm Satya Kotipalli — a software engineer with 5+ years building scalable web and
+        mobile applications across React, TypeScript, React Native, secure authentication,
+        accessibility, testing, and frontend cloud delivery.
       </p>
       <div className="hero-cta">
         <a href="#work" className="btn btn-pri">
@@ -41,7 +42,7 @@ export default function Hero() {
           <div className="v">
             90<span>%+</span>
           </div>
-          <div className="l">Test coverage</div>
+          <div className="l">Automated testing</div>
         </div>
       </div>
     </header>
