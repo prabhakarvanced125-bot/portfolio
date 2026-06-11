@@ -13,16 +13,18 @@ export default function Hero() {
         <span className="grad">fast, tested UIs.</span>
       </h1>
       <p className="lead">
-        I'm Satya Kotipalli — a software engineer with 5+ years building scalable web and
-        mobile applications across React, TypeScript, React Native, secure authentication,
-        accessibility, testing, and frontend cloud delivery.
+        Software Engineer specializing in React, TypeScript, enterprise frontend applications,
+        authentication integrations, testing, and cloud-based frontend delivery.
       </p>
       <div className="hero-cta">
-        <a href="#work" className="btn btn-pri">
-          View experience →
+        <a href="#projects" className="btn btn-pri">
+          View Projects
+        </a>
+        <a href="/Satya_Kotipalli_Resume.pdf" className="btn btn-gho" download>
+          Download Resume
         </a>
         <a href="#contact" className="btn btn-gho">
-          Get in touch
+          Contact Me
         </a>
       </div>
       <div className="hero-stats">
@@ -39,10 +41,8 @@ export default function Hero() {
           <div className="l">Build time cut</div>
         </div>
         <div className="hero-stat">
-          <div className="v">
-            90<span>%+</span>
-          </div>
-          <div className="l">Automated testing</div>
+          <div className="v">E2E</div>
+          <div className="l">Vitest · RTL · Playwright</div>
         </div>
       </div>
     </header>

@@ -3,8 +3,8 @@ import Reveal from './Reveal'
 const metrics = [
   { v: '5+', l: 'years_experience' },
   { v: '40%', l: 'build_time_cut' },
-  { v: '4', l: 'production_roles' },
-  { v: 'E2E', l: 'auth_test_coverage' },
+  { v: 'SSO', l: 'auth_modernization' },
+  { v: 'AWS', l: 'frontend_delivery' },
 ]
 
 export default function About() {
@@ -19,17 +19,18 @@ export default function About() {
       <div className="about-grid">
         <div>
           <p className="lead-p">
-            I build scalable React and TypeScript products across web and mobile, with a focus
-            on secure enterprise workflows.
+            I am a frontend-focused software engineer with 5+ years of experience building
+            React and TypeScript applications for enterprise teams.
           </p>
           <p>
-            My work spans component-driven development, WCAG-minded interfaces, state management,
-            performance optimization, and production monitoring with tools like New Relic.
+            My day-to-day work includes React, TypeScript, Redux Toolkit, and Material UI, with
+            an emphasis on maintainable interfaces, accessible workflows, and clear state management.
           </p>
           <p>
-            I have modernized frontend architecture with Vite, migrated authentication from Keycloak
-            to ESSO-based SSO, built AWS CDK/S3 deployment workflows, and shipped automated tests
-            for OAuth and MFA flows.
+            I have helped modernize enterprise applications through Keycloak to ESSO authentication
+            migrations, Firebase Auth and Google Sign-In integrations, automated testing with Vitest,
+            React Testing Library, and Playwright, plus frontend infrastructure work using AWS CDK,
+            Amazon S3, and GitLab CI/CD.
           </p>
         </div>
         <div className="panel">

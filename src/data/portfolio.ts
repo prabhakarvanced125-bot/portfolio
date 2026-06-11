@@ -21,7 +21,7 @@ export const jobs = [
       'Accelerated development speeds by 40% through Vite migration, optimized bundling, lazy loading, caching, and Core Web Vitals.',
       'Built frontend cloud infrastructure with AWS CDK, Amazon S3, custom domains, and automated deployment workflows.',
       'Monitored application health in New Relic and investigated production performance issues.',
-      'Authored Vitest, React Testing Library, and Playwright coverage for OAuth/ESSO MFA flows while using Copilot and Claude to accelerate delivery.',
+      'Authored automated tests with Vitest, React Testing Library, and Playwright for OAuth/ESSO MFA flows while using Copilot and Claude to accelerate delivery.',
     ],
     stack: ['React', 'TypeScript', 'Redux Toolkit', 'MUI', 'Vite', 'AWS CDK', 'Playwright'],
   },
@@ -65,23 +65,33 @@ export const jobs = [
 
 export const projects = [
   {
-    t: 'FCC Document Manager',
-    d: 'Enterprise React UI supporting FCC document uploads, affiliate management, and secure access workflows.',
-    s: ['React', 'TypeScript', 'Redux Toolkit', 'MUI'],
+    title: 'FCC Document Manager',
+    subtitle: 'Enterprise document management and affiliate administration UI',
+    problem:
+      'Internal teams needed a reliable interface to manage FCC document uploads, affiliate access, and regulatory workflows.',
+    built:
+      'Built React/TypeScript UI features using Redux Toolkit and Material UI for document upload workflows, affiliate management, and secure access flows.',
+    tech: ['React', 'TypeScript', 'Redux Toolkit', 'Material UI', 'REST APIs'],
+    impact: 'Improved maintainability and supported critical internal document-management workflows.',
   },
   {
-    t: 'Enterprise SSO Migration',
-    d: 'Standardized authentication by moving applications from Keycloak to ESSO-based SSO with OAuth and MFA test coverage.',
-    s: ['SSO', 'OAuth', 'Playwright'],
+    title: 'Keycloak to ESSO Migration',
+    subtitle: 'Authentication modernization across enterprise applications',
+    problem:
+      'Applications needed to migrate from legacy Keycloak-based authentication to enterprise ESSO-based SSO.',
+    built:
+      'Implemented secure frontend authentication and authorization flows, updated login/session handling, and supported OAuth/ESSO MFA scenarios.',
+    tech: ['React', 'TypeScript', 'OAuth', 'ESSO', 'Keycloak', 'Playwright'],
+    impact: 'Standardized authentication flows and improved secure access management across applications.',
   },
   {
-    t: 'Vite Performance Migration',
-    d: 'Improved development speed by 40% through Vite migration, optimized bundling, lazy loading, caching, and Core Web Vitals work.',
-    s: ['Vite', 'Webpack', 'Performance'],
-  },
-  {
-    t: 'Cross-Platform Mobile App',
-    d: 'React Native and Expo mobile experience with Firebase Authentication and a reusable styled-components design system.',
-    s: ['React Native', 'Expo', 'Firebase'],
+    title: 'Frontend Infrastructure and Performance Migration',
+    subtitle: 'Vite migration and AWS frontend deployment',
+    problem:
+      'Legacy build tooling slowed local development and frontend deployment workflows needed better maintainability.',
+    built:
+      'Migrated frontend tooling to Vite, optimized bundling/lazy loading/caching/Core Web Vitals, and helped deploy frontend apps using AWS CDK and Amazon S3 with custom domains.',
+    tech: ['Vite', 'React', 'TypeScript', 'AWS CDK', 'Amazon S3', 'GitLab CI/CD'],
+    impact: 'Improved local development speed by 40% and strengthened frontend deployment workflows.',
   },
 ]
