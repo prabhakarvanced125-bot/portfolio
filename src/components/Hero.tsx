@@ -3,18 +3,19 @@ export default function Hero() {
     <header className="hero wrap">
       <div className="badge">
         <span className="pulse" />
-        Software Developer · Charlotte, NC
+        Senior Frontend & Mobile Software Engineer
       </div>
       <h1>
-        Frontend
+        Scalable web
         <br />
-        engineer building
+        and mobile apps.
         <br />
-        <span className="grad">fast, tested UIs.</span>
+        <span className="grad">Built with purpose.</span>
       </h1>
       <p className="lead">
-        Software Engineer specializing in React, TypeScript, enterprise frontend applications,
-        authentication integrations, testing, and cloud-based frontend delivery.
+        I'm Satya Kotipalli, a software engineer with 5+ years building enterprise web applications
+        and cross-platform mobile experiences. I specialize in React, React Native, and TypeScript,
+        with a focus on reusable components, authentication, accessibility, and performance.
       </p>
       <div className="hero-cta">
         <a href="#projects" className="btn btn-pri">
@@ -25,6 +26,9 @@ export default function Hero() {
         </a>
         <a href="#contact" className="btn btn-gho">
           Contact Me
+        </a>
+        <a href="https://www.linkedin.com/in/satya-siva-kotipalli/" className="btn btn-gho" target="_blank" rel="noopener noreferrer">
+          LinkedIn
         </a>
       </div>
       <div className="hero-stats">

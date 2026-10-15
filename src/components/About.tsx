@@ -28,7 +28,7 @@ export default function About() {
           </p>
           <p>
             I have helped modernize enterprise applications through Keycloak to ESSO authentication
-            migrations, Firebase Auth and Google Sign-In integrations, automated testing with Vitest,
+            migrations to Microsoft Entra ID/MSAL, Firebase Auth and Google Sign-In integrations, automated testing with Vitest,
             React Testing Library, and Playwright, plus frontend infrastructure work using AWS CDK,
             Amazon S3, and GitLab CI/CD.
           </p>

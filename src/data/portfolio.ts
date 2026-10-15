@@ -16,7 +16,7 @@ export const jobs = [
     role: 'Software Developer',
     when: 'Aug 2023 — Present',
     bullets: [
-      'Migrated applications from Keycloak to ESSO-based SSO across multiple apps, standardizing secure access and authentication flows.',
+      'Migrated frontend authentication from Keycloak to Microsoft Entra ID using MSAL across multiple applications, supporting consistent SSO and authorization flows.',
       'Developed the FCC Document Manager UI for document uploads, affiliate management, and secure access workflows.',
       'Accelerated development speeds by 40% through Vite migration, optimized bundling, lazy loading, caching, and Core Web Vitals.',
       'Built frontend cloud infrastructure with AWS CDK, Amazon S3, custom domains, and automated deployment workflows.',
@@ -63,7 +63,31 @@ export const jobs = [
   },
 ]
 
-export const projects = [
+type Project = {
+  title: string
+  subtitle: string
+  problem: string
+  built: string
+  tech: string[]
+  impact: string
+  link?: string
+  featured?: boolean
+}
+
+export const projects: Project[] = [
+  {
+    title: 'Cost Share',
+    subtitle: 'Personal React Native expense-splitting app',
+    link: 'https://cost-share.app/',
+    featured: true,
+    problem:
+      'Friends and groups need a simple way to split shared expenses, scan receipts, track balances, and settle up without spreadsheet overhead.',
+    built:
+      'Built a shared Android/iOS application for group expenses, itemized bill splitting, balance tracking, settlements, profiles, and expense search. Added AI-assisted receipt extraction with a review step before saving.',
+    tech: ['React Native', 'Expo', 'TypeScript', 'Supabase', 'Edge Functions / Deno', 'React Query', 'Gemini'],
+    impact:
+      'Turned a personal finance workflow into a production-style mobile app with authentication, database-backed collaboration, automation, and monetization features.',
+  },
   {
     title: 'FCC Document Manager',
     subtitle: 'Enterprise document management and affiliate administration UI',
@@ -75,13 +99,13 @@ export const projects = [
     impact: 'Improved maintainability and supported critical internal document-management workflows.',
   },
   {
-    title: 'Keycloak to ESSO Migration',
+    title: 'Enterprise SSO Modernization',
     subtitle: 'Authentication modernization across enterprise applications',
     problem:
-      'Applications needed to migrate from legacy Keycloak-based authentication to enterprise ESSO-based SSO.',
+      'Multiple enterprise applications needed to move from Keycloak-based authentication to Microsoft Entra ID while preserving reliable access workflows.',
     built:
-      'Implemented secure frontend authentication and authorization flows, updated login/session handling, and supported OAuth/ESSO MFA scenarios.',
-    tech: ['React', 'TypeScript', 'OAuth', 'ESSO', 'Keycloak', 'Playwright'],
+      'Migrated frontend integrations to MSAL/Microsoft Entra ID, updated login and session handling, and implemented Playwright tests for OAuth/OIDC, SSO, and MFA workflows.',
+    tech: ['React', 'MSAL', 'Microsoft Entra ID', 'Keycloak', 'OAuth/OIDC', 'Playwright'],
     impact: 'Standardized authentication flows and improved secure access management across applications.',
   },
   {
