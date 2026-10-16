@@ -576,6 +576,7 @@ section {
   content: '';
   position: absolute;
   inset: 0;
+  pointer-events: none;
   background: radial-gradient(circle at 80% 0%, rgba(94, 230, 200, 0.08), transparent 60%);
   opacity: 0;
   transition: opacity 0.3s;
